@@ -1,0 +1,78 @@
+{
+  "num_images": 3242,
+  "num_labels": 6,
+  "labels": [
+    "[malignant]_early_pre-b",
+    "[malignant]_pre-b",
+    "[malignant]_pro-b",
+    "all",
+    "benign",
+    "hem"
+  ],
+  "accuracy": 0.0,
+  "macro_f1": 0.0,
+  "weighted_f1": 0.0,
+  "missed_detection_count": 0,
+  "multi_detection_count": 7,
+  "true_label_distribution": {
+    "benign": 512,
+    "[malignant]_pre-b": 955,
+    "[malignant]_pro-b": 796,
+    "[malignant]_early_pre-b": 979
+  },
+  "pred_label_distribution": {
+    "all": 3152,
+    "hem": 90
+  },
+  "classification_report": {
+    "[malignant]_early_pre-b": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 979.0
+    },
+    "[malignant]_pre-b": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 955.0
+    },
+    "[malignant]_pro-b": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 796.0
+    },
+    "all": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "benign": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 512.0
+    },
+    "hem": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.0,
+    "macro avg": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3242.0
+    },
+    "weighted avg": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3242.0
+    }
+  }
+}
